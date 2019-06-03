@@ -1,4 +1,4 @@
-const URLapi = 'http://api.tvmaze.com/shows';
+const URLapi = 'https://api.tvmaze.com/shows';
 let element = document.getElementById('TvShow__Mainshows');
 let array = [];
 
@@ -18,7 +18,7 @@ function getData() {
 			.then(res => res.json())
 			.then(data => {
 				localStorage.data = JSON.stringify(data);
-				let printData = data.slice(0, 15).map(show => {
+				let printData = data.slice(0, 35).map(show => {
 					return `<div class="TvShow__itemShow">
 										<img src="${show.image.medium}" alt="img">
 										<p>${show.name}</p>
