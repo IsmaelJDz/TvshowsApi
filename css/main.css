@@ -1,0 +1,83 @@
+header {
+	display: flex;
+	color: #6b6b6b;
+	justify-content: space-around;
+	align-items: center;
+	padding: 12px;
+}
+
+header .TvShow__logo {
+	
+}
+
+header .TvShow__input {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 3px 3px rgba(0,0,0,.075);
+  box-shadow: inset 0 3px 3px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s
+}
+
+header .TvShow__input:focus {
+	border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+
+header .TvShow__button {
+	border: none;
+  border-radius: 5px;
+  background: #03738C;
+  color: #fff;
+  padding: 7px 15px 7px 15px;
+  vertical-align: middle;
+  outline: none; 
+}
+
+header .TvShow__list ul {
+	display: flex;
+	list-style: none;
+}
+
+header .TvShow__list ul li {
+	margin-left: 20px;
+}
+
+#TvShow__Mainshows{
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#TvShow__Mainshows .TvShow__itemShow {
+	margin: 10px;
+	background: #F2949C;
+	text-align: center;
+	border-radius: 2px;
+}
+
+footer{
+	text-align: center;
+	background: #9c9c9c;
+	color: #fff;
+}
+
+footer h5 {
+	padding: 10px;
+	margin: 0;
+}

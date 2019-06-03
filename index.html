@@ -3,10 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Example Js</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<h1>Search your TvShows</h1>
-	<h4>This is an example in order to search your shows and save them</h4>
+	<header>
+		<div class="TvShow__logo">
+			<img src="./img/logo.png" alt="Logo">
+		</div>
+		<div class="TvShow__search">
+			<form id="TvShow__form">
+				<input type="search" class="TvShow__input" placeholder="Search..." name="showsandpeople">
+				<button type="submit" class="TvShow__button">Search</button>
+			</form>
+		</div>
+		<div class="TvShow__list">
+			<ul>
+				<li>Faqs</li>
+				<li>About</li>
+			</ul>
+		</div>
+	</header>
+	<section id="TvShow__Mainshows">
+		<h2>Shows</h2>
+	</section>
+	<footer>
+		<h5>Design by IsmaelJdz</h5>
+	</footer>
 	<script src="./js/main.js"></script>
 </body>
 </html>
